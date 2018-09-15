@@ -15,19 +15,25 @@
       alt="API stability" />
   </a>
   <!-- Build Status -->
-  <a href="https://travis-ci.org/choojs/choo">
+  <a href="">
     <img src="https://img.shields.io/travis/choojs/choo/master.svg?style=flat-square"
       alt="Build Status" />
   </a>
+  
+  <!-- Platform -->
+  <a href="">
+    <img src="https://img.shields.io/badge/Python-2.7%7C3.5-green.svg"
+      alt="Platform" />
+  </a>
   <!-- Test Coverage -->
-  <a href="https://codecov.io/github/choojs/choo">
+  <a href="o">
     <img src="https://img.shields.io/codecov/c/github/choojs/choo/master.svg?style=flat-square"
       alt="Test Coverage" />
   </a>
   <!-- Standard -->
   <a href="https://www.datacamp.com/community/tutorials/pep8-tutorial-python-code">
-    <img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square"
-      alt="Standard" />
+    <img src="https://img.shields.io/badge/Code%20Style-PEP--8-blue.svg"
+      alt="PEP-8" />
   </a>
 </div>
 
