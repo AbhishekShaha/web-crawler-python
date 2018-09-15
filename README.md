@@ -49,7 +49,7 @@
   </h3>
 </div>
 
-![small gif 400x243](https://user-images.githubusercontent.com/9308669/45591055-030c0e00-b93f-11e8-8b18-7ffa8803840f.gif)
+![1](https://user-images.githubusercontent.com/9308669/45591088-be34a700-b93f-11e8-8994-0701e44d9187.gif)
 
 ## Table of Contents
 - [Features](#features)
