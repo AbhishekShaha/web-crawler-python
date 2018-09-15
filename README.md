@@ -143,8 +143,8 @@ $ python cr.py >> result.txt
 ```
 
 ### Credits
-Become a backer, and buy us a coffee (or perhaps lunch?) every month or so.
-[Become a backer](https://opencollective.com/choo#backer)
+The code credit for this web crowler.
+[Rishi Giri](https://opencollective.com/choo#backer)
 
 ## License
 [MIT](https://tldrlegal.com/license/mit-license)
