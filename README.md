@@ -1,7 +1,7 @@
 <h1 align="center">web Crawler</h1>
 
 <div align="center">
-  :spider::spider:
+  :spider::web::spider:
 </div>
 <div align="center">
   <strong>A simple web crawler using python</strong>
