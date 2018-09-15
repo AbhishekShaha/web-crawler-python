@@ -49,7 +49,7 @@
   </h3>
 </div>
 
-<p align="center"><img src="http://recordit.co/GxkkX9u2TR" /></a></p>
+<p align="center"><a href="http://recordit.co/GxkkX9u2TR"><img src="http://recordit.co/GxkkX9u2TR" /></a></p>
 
 ## Table of Contents
 - [Features](#features)
@@ -58,21 +58,15 @@
 - [Credits](#support)
 
 ## Features
-The most straightforward crawler that will crawl a site by bringing all the URL's for a particular given website.
 
-- __minimal size:__ weighing `4kb`, Choo is a tiny little framework
-- __event based:__ our performant event system makes writing apps easy
-- __small api:__ with only 6 methods there's not much to learn
-- __minimal tooling:__ built for the cutting edge `browserify` compiler
-- __isomorphic:__ renders seamlessly in both Node and browsers
-- __very cute:__ choo choo!
+The most straightforward crawler that will crawl a site by bringing all the URL's for a particular given website.
 
 ## Requirements
 
 - __BeautifulSoup:__ is a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree.
 
-- __Python2.7+:__
-- __And a terminal:__
+- __Python2.7+__
+- __And a terminal__
 
 ## Code Snippet
 
