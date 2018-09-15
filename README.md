@@ -49,7 +49,7 @@
   </h3>
 </div>
 
-<p align="center"><img src=" " /></a></p>
+<p align="center"><img src="http://recordit.co/GxkkX9u2TR" /></a></p>
 
 ## Table of Contents
 - [Features](#features)
@@ -71,8 +71,8 @@ The most straightforward crawler that will crawl a site by bringing all the URL'
 
 - __BeautifulSoup:__ is a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree.
 
-- __Python2.7+
-- __And a terminal
+- __Python2.7+:__
+- __And a terminal:__
 
 ## Code Snippet
 
