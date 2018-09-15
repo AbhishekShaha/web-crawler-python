@@ -1,15 +1,11 @@
-<h1 align="center">Choo</h1>
+<h1 align="center">web Crawler</h1>
 
 <div align="center">
   :steam_locomotive::train::train::train::train::train:
 </div>
 <div align="center">
-  <strong>Fun functional programming</strong>
+  <strong>A simple web crawler using python</strong>
 </div>
-<div align="center">
-  A <code>4kb</code> framework for creating sturdy frontend applications
-</div>
-
 <br />
 
 <div align="center">
@@ -17,11 +13,6 @@
   <a href="https://nodejs.org/api/documentation.html#documentation_stability_index">
     <img src="https://img.shields.io/badge/stability-experimental-orange.svg?style=flat-square"
       alt="API stability" />
-  </a>
-  <!-- NPM version -->
-  <a href="https://npmjs.org/package/choo">
-    <img src="https://img.shields.io/npm/v/choo.svg?style=flat-square"
-      alt="NPM version" />
   </a>
   <!-- Build Status -->
   <a href="https://travis-ci.org/choojs/choo">
@@ -33,13 +24,8 @@
     <img src="https://img.shields.io/codecov/c/github/choojs/choo/master.svg?style=flat-square"
       alt="Test Coverage" />
   </a>
-  <!-- Downloads -->
-  <a href="https://npmjs.org/package/choo">
-    <img src="https://img.shields.io/npm/dt/choo.svg?style=flat-square"
-      alt="Download" />
-  </a>
   <!-- Standard -->
-  <a href="https://standardjs.com">
+  <a href="https://www.datacamp.com/community/tutorials/pep8-tutorial-python-code">
     <img src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square"
       alt="Standard" />
   </a>
