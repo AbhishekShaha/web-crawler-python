@@ -49,7 +49,7 @@
   </h3>
 </div>
 
-![1](https://user-images.githubusercontent.com/9308669/45591088-be34a700-b93f-11e8-8994-0701e44d9187.gif)
+<span style="display:block;text-align:center">![1](https://user-images.githubusercontent.com/9308669/45591088-be34a700-b93f-11e8-8994-0701e44d9187.gif)</span>
 
 ## Table of Contents
 - [Features](#features)
