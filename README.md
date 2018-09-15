@@ -49,7 +49,7 @@
   </h3>
 </div>
 
-<p align="center"><img src="https://user-images.githubusercontent.com/1215767/34356204-4c03be8a-ea7f-11e7-9aa9-0d84f9e912ec.gif" /></a></p>
+<p align="center"><img src=" " /></a></p>
 
 ## Table of Contents
 - [Features](#features)
@@ -58,6 +58,8 @@
 - [Credits](#support)
 
 ## Features
+The most straightforward crawler that will crawl a site by bringing all the URL's for a particular given website.
+
 - __minimal size:__ weighing `4kb`, Choo is a tiny little framework
 - __event based:__ our performant event system makes writing apps easy
 - __small api:__ with only 6 methods there's not much to learn
@@ -66,17 +68,82 @@
 - __very cute:__ choo choo!
 
 ## Requirements
-```python
 
-write 
-the 
-code
-here
+- __BeautifulSoup:__ is a Python library for pulling data out of HTML and XML files. It works with your favorite parser to provide idiomatic ways of navigating, searching, and modifying the parse tree.
 
+- __Python2.7+
+- __And a terminal
+
+## Code Snippet
+
+```python:
+#!/usr/bin/python
+
+#- * -coding: utf - 8 - * -
+
+    inputURL = 'https://wiprodigital.com/'
+
+# URL that we want to crawl
+
+resultUrl = {
+    inputURL: False
+}
+
+# Value is True or False.True means already crawled
+
+# from urllib
+import urlopen
+
+import urllib2
+import urlparse
+import time
+import pprint
+import BeautifulSoup# get html links
+
+
+def processOneUrl(url):
+    ""
+"fetch URL content and update resultUrl."
+""
+
+try: # in case of 404 error
+html_page = urllib2.urlopen(url)
+soup = BeautifulSoup.BeautifulSoup(html_page)
+for link in soup.findAll('a'):
+    fullurl = urlparse.urljoin(url, link.get('href'))
+    if fullurl.startswith(inputURL):
+        if fullurl not in resultUrl:
+        resultUrl[fullurl] = False
+    resultUrl[url] = True# set as crawled
+    except:
+        resultUrl[url] = True# set as crawled
+
+
+    def moreToCrawl():
+        ""
+    "returns True or False"
+    ""
+
+    for (url, crawled) in iter(resultUrl.iteritems()):
+        if not crawled:
+        print 'The URL found is:  {}'.format(url)
+    return url
+    return False
+
+
+    while True:
+        toCrawl = moreToCrawl()
+    if not toCrawl:
+        break
+    processOneUrl(toCrawl)
+    time.sleep(2)
+
+    pprint.pprint(resultUrl)
 ```
+
 ## Usage
-```sh
-$ npm install choo
+```
+$ python cr.py >> result.txt
 ```
 
 ### Credits
