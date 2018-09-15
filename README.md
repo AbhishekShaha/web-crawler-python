@@ -46,7 +46,6 @@
     <a href=" Link to blog">
       Blog
     </a>
-    <span> | </span>
   </h3>
 </div>
 
