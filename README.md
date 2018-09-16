@@ -43,7 +43,7 @@
       Website
     </a>
     <span> | </span>
-    <a href=" Link to blog">
+    <a href="https://abhishekshaha.github.io/abhishekshaha.github.io/python/2018/09/16/blog-python.html">
       Blog
     </a>
   </h3>
